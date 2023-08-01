@@ -14,6 +14,8 @@
 		F8373A072A44890F00FFB32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8373A062A44890F00FFB32F /* Assets.xcassets */; };
 		F8373A0A2A44890F00FFB32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8373A082A44890F00FFB32F /* LaunchScreen.storyboard */; };
 		F8373A0D2A44890F00FFB32F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8373A0C2A44890F00FFB32F /* main.m */; };
+		F8373A262A44962400FFB32F /* ViewUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8373A252A44962400FFB32F /* ViewUserInfo.m */; };
+		F8D845A12A5964C70066A55A /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D845A02A5964C70066A55A /* UserInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		F8373A092A44890F00FFB32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8373A0B2A44890F00FFB32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8373A0C2A44890F00FFB32F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8373A242A44962400FFB32F /* ViewUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewUserInfo.h; sourceTree = "<group>"; };
+		F8373A252A44962400FFB32F /* ViewUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewUserInfo.m; sourceTree = "<group>"; };
+		F8D8459F2A5964C70066A55A /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		F8D845A02A5964C70066A55A /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				F83739FE2A44890E00FFB32F /* SceneDelegate.m */,
 				F8373A002A44890E00FFB32F /* ViewController.h */,
 				F8373A012A44890E00FFB32F /* ViewController.m */,
+				F8373A242A44962400FFB32F /* ViewUserInfo.h */,
+				F8373A252A44962400FFB32F /* ViewUserInfo.m */,
+				F8D8459F2A5964C70066A55A /* UserInfo.h */,
+				F8D845A02A5964C70066A55A /* UserInfo.m */,
 				F8373A032A44890E00FFB32F /* Main.storyboard */,
 				F8373A062A44890F00FFB32F /* Assets.xcassets */,
 				F8373A082A44890F00FFB32F /* LaunchScreen.storyboard */,
@@ -146,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8373A262A44962400FFB32F /* ViewUserInfo.m in Sources */,
 				F8373A022A44890E00FFB32F /* ViewController.m in Sources */,
 				F83739FC2A44890E00FFB32F /* AppDelegate.m in Sources */,
 				F8373A0D2A44890F00FFB32F /* main.m in Sources */,
+				F8D845A12A5964C70066A55A /* UserInfo.m in Sources */,
 				F83739FF2A44890E00FFB32F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
